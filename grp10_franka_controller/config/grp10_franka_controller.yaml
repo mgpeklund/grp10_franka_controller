@@ -1,0 +1,3 @@
+franka_controller:
+    type: grp10_franka_controller/FrankaController
+    arm_id: panda

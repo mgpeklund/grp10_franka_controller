@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>grp10_franka_controller</name>
+  <version>0.0.0</version>
+  <description>The grp10_franka_controller package</description>
+
+  <maintainer email="panda@todo.todo">panda</maintainer>
+
+  <license>TODO</license>
+
+  <!--
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>controller_interface</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
+  <build_depend>franka_hw</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>hardware_interface</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>pluginlib</build_depend>
+  <build_depend>realtime_tools</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_export_depend>controller_interface</build_export_depend>
+  <build_export_depend>dynamic_reconfigure</build_export_depend>
+  <build_export_depend>franka_hw</build_export_depend>
+  <build_export_depend>geometry_msgs</build_export_depend>
+  <build_export_depend>hardware_interface</build_export_depend>
+  <build_export_depend>pluginlib</build_export_depend>
+  <build_export_depend>realtime_tools</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <exec_depend>controller_interface</exec_depend>
+  <exec_depend>dynamic_reconfigure</exec_depend>
+  <exec_depend>franka_hw</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>hardware_interface</exec_depend>
+  <exec_depend>pluginlib</exec_depend>
+  <exec_depend>realtime_tools</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+-->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>eigen</build_depend>
+
+  <build_export_depend>message_runtime</build_export_depend>
+
+  <depend>controller_interface</depend>
+  <depend>dynamic_reconfigure</depend>
+  <depend>franka_hw</depend>
+  <depend>geometry_msgs</depend>
+  <depend>hardware_interface</depend>
+  <depend>libfranka</depend>
+  <depend>pluginlib</depend>
+  <depend>realtime_tools</depend>
+  <depend>roscpp</depend>
+
+  <exec_depend>franka_control</exec_depend>
+  <exec_depend>franka_description</exec_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>panda_moveit_config</exec_depend>
+  <exec_depend>rospy</exec_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <controller_interface plugin="${prefix}/grp10_franka_controller_plugin.xml"/>
+  </export>
+</package>

@@ -1,0 +1,7 @@
+<library path="lib/libgrp10_franka_controller">
+  <class name="grp10_franka_controller/FrankaController" type="grp10_franka_controller::FrankaController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      A controller that executes a short motion based on cartesian poses to demonstrate correct usage
+    </description>
+  </class>
+</library>
