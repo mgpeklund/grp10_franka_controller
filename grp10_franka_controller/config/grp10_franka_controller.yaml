@@ -1,3 +1,11 @@
 franka_controller:
     type: grp10_franka_controller/FrankaController
     arm_id: panda
+
+franka_model_controller:
+    type: grp10_franka_controller/FrankaModelController
+    arm_id: panda
+
+franka_cart_vel_controller:
+    type: grp10_franka_controller/FrankaCartVelController
+    arm_id: panda

@@ -43,6 +43,8 @@ catkin_package(
 
 add_library(grp10_franka_controller
   src/franka_controller.cpp
+  src/franka_model_controller.cpp
+  src/franka_cart_vel_controller.cpp
 )
 
 #include_directories(

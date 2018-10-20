@@ -3,5 +3,15 @@
     <description>
       A controller that executes a short motion based on cartesian poses to demonstrate correct usage
     </description>
+	</class>
+	<class name="grp10_franka_controller/FrankaModelController" type="grp10_franka_controller::FrankaModelController" base_class_type="controller_interface::ControllerBase">
+		<description>
+
+		</description>
+	</class>
+  <class name="grp10_franka_controller/FrankaCartVelController" type="grp10_franka_controller::FrankaCartVelController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      Cartesian velocity controller.
+    </description>
   </class>
 </library>
